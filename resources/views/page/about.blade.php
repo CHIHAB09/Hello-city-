@@ -1,6 +1,6 @@
 @extends('base') 
 <!--on appel le template de base-->
-    @section('title','About Us | Hello City')
+    @section('title','About Us | '. config('app.name'))
 
 
 @section('content')

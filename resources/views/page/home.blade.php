@@ -2,7 +2,7 @@
 
     @section('title')
 
-        Hello City
+    {{config('app.name')}}
 
     @stop
 

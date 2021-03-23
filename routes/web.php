@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route:: get('/',function(){
-    return view('home');
+    return view('page/home');// le . ou le slash est identique
 });
 
 Route:: get('/about-us',function(){
-    return view('about');
+    return view('page/about');
 });

@@ -1,5 +1,13 @@
 @extends('base')
 
+    @section('title')
+
+        Hello City
+
+    @stop
+
+
+
 @section('content')
 
     <h1>Hello from Belgium!!</h1>

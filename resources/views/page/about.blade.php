@@ -1,5 +1,7 @@
 @extends('base') 
 <!--on appel le template de base-->
+    @section('title','About Us | Hello City')
+
 
 @section('content')
     <body>

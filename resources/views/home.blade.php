@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
 
     </head>
     <body>
@@ -13,7 +13,7 @@
     <p>It's currently {{date('h:i A')}}.</p>
 
     <footer>
-        <p>&copy; Copyright {{date('Y')}} &middot; <a href="#">About Us</a></p>
+        <p>&copy; Copyright {{date('Y')}} &middot; <a href="/about-us">About Us</a></p>
     </footer>
     </body>
 </html>

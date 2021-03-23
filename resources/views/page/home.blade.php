@@ -6,4 +6,4 @@
 
     <p>It's currently {{date('h:i A')}}.</p>
 
-@endsection
+@endsection 

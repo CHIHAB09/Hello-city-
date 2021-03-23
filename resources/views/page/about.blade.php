@@ -8,6 +8,6 @@
 
         <p>First test with Laravel &hearts;</p>    
 
-        <p><a href="/">Return at home.</a></p>
+        <p><a href="{{route('app_home'}}">Return at home.</a></p>
 
 @endsection

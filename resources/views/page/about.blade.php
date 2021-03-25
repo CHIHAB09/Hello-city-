@@ -1,7 +1,5 @@
-@extends('base') 
+@extends('layout.base',['pageTitle'=> 'About Us']) 
 <!--on appel le template de base-->
-    @section('title','About Us | '. config('app.name'))
-
 
 @section('content')
     <body>

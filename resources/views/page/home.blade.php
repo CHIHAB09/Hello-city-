@@ -1,10 +1,4 @@
-@extends('base')
-
-    @section('title')
-
-    {{config('app.name')}}
-
-    @stop
+@extends('layout.base')
 
 
 

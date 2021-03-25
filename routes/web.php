@@ -9,3 +9,7 @@ Route:: get('/',function(){
 Route:: get('/about-us',function(){
     return view('page/about');
 })->name('app_about');
+
+Route:: get('/help',function(){
+    return view('page/help');
+})->name('app_help');

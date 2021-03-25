@@ -9,8 +9,8 @@
 
 
 @section('content')
-
-    <img src="/images/europe.jpg" alt="europe FLAG">
+    {{-- asset() ajoute le nom de domaine au chemin et permet d accelerer la performance et la rapiditer du chargement (CDN) --}}
+    <img src="{{ asset('images/europe.jpg') }}" alt="europe FLAG">
 
     <h1>Hello from Belgium!!</h1>
 

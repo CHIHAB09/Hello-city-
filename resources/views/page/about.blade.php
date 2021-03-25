@@ -6,7 +6,7 @@
 @section('content')
     <body>
         
-        <img src="/images/aboutus.jpg" alt="about us FLAG">
+        <img src="{{ asset('images/aboutus.jpg') }}" alt="about us FLAG">
 
         <p>First test with Laravel &hearts;</p>    
 

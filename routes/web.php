@@ -17,8 +17,8 @@ Route:: get('/help',function(){
 //ca c'est une maniere plus courte d'ecrire les routes tjrs php
 Route:: get('/',fn() => view('page/home'))->name('app_home');
 
-Route:: get('/about-us',fn() => view('page/about'))->name('app_about');
-
 //encore plus court ecriture laravel
+Route::view('/about','page/about')->name('app_about');
+
 Route::view('/help','page/help')->name('help');
 

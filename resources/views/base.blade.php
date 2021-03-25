@@ -16,7 +16,7 @@
                 <p>
                 
                     &copy; Copyright {{date('Y')}} 
-                    {{-- On dit que si on est pas sur about on affiche le liens faciliter pour affihcer sur plusieur page  --}}
+                    {{-- On dit que si on est pas sur about on affiche le liens faciliter pour afficher sur plusieur page  --}}
                     @if(!Route::is('app_about'))
                     &middot; <a href="{{route('app_about')}}">About Us</a>
                     @endif

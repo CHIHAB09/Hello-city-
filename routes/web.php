@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Route;
 //ca c'est une maniere plus courte d'ecrire les routes tjrs php
 Route::get('/',fn() => view('page.home'))->name('app_home');
 
-
 Route::get('/about-us',function(){
     return view('page/about');
 })->name('app_about');
